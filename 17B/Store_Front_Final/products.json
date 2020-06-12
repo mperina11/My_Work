@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "intel-i9 [10 core, 5.3Ghz]",
+        "price": 560.99,
+        "image": { "fields": { "file": { "url": "./images/intel_i9.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "intel-i7 [8 core, 5.1Ghz]",
+        "price": 315.99,
+        "image": { "fields": { "file": { "url": "./images/intel_i7.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "intel-i5 [6 core, 4.8Ghz]",
+        "price": 225.99,
+        "image": { "fields": { "file": { "url": "./images/intel_i5.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "intel-i3 [4 core, 4.6Ghz]",
+        "price": 99.99,
+        "image": { "fields": { "file": { "url": "./images/intel_i3.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "AMD Ryzen 9 [12 core, 4.6Ghz]",
+        "price": 434.99,
+        "image": { "fields": { "file": { "url": "./images/amd_r9.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "AMD Ryzen 7 [8 core, 4.5Ghz]",
+        "price": 280.99,
+        "image": { "fields": { "file": { "url": "./images/amd_r7.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "AMD Ryzen 5 [6 core, 4.4Ghz]",
+        "price": 175.99,
+        "image": { "fields": { "file": { "url": "./images/amd_r5.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "AMD Ryzen 3 [4 core, 4.3Ghz]",
+        "price": 100.99,
+        "image": { "fields": { "file": { "url": "./images/amd_r3.jpg" } } }
+      }
+    }    
+  ]
+}
