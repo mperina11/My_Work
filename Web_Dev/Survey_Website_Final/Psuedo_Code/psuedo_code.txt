@@ -1,0 +1,25 @@
+	loginpage
+if login
+	enter username and password
+	check against database
+	log the time in database
+	send to main page
+	
+if create account
+	enter username, password, first name, last name, email
+	check with REGEX
+
+	mainpage
+if logout
+	send user back to loginpage
+	log tim in database
+	
+if survey 1
+	show survey form
+	send results to database
+if survey 2
+	show survey form
+	send results to database
+if survey 3
+	show survey form
+	send results to database	

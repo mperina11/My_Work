@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+      
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <button type="submit" class="btn logout" onclick="Logout()">Logout</button>
+        </span>
+        <strong >Take a Survey today!</strong>
+        
+      </div>
+    </nav>
+        
+        
+        
+        
+        
+        
+      <!-- survey 1 -->  
+<div class="open-button" style="text-align:center;">
+<button class="open-button" onclick="openForm_1()">Survey 1</button>
+</div>
+        
+  <div class="form-popup" id="survey1">
+  <form action="results.php" method="post" class="form-container">
+
+        <div class="row"> 
+          <div class="col-50">
+            
+       How many CPU cores do you have?
+            <div class= "checkbox">
+                <input type="checkbox" name="check1[]" value="A" />1<br>
+                <input type="checkbox" name="check1[]" value="B" />2<br>
+                <input type="checkbox" name="check1[]" value="C" />4<br>
+                <input type="checkbox" name="check1[]" value="D" />6<br>
+                <input type="checkbox" name="check1[]" value="E" />8<br>
+                <input type="checkbox" name="check1[]" value="F" />10<br>
+                <input type="checkbox" name="check1[]" value="G" />11<br>
+                <input type="checkbox" name="check1[]" value="H" />14 or more
+            </div>
+          </div>
+        </div>
+       
+        <input type="submit" value="Submit Checkout" class="btn">
+        <button type="submit" class="btn cancel" onclick="closeForm_1()">Close</button>
+  </form>
+</div>
+           
+    <!-- survey 2 -->  
+<div class="open-button" style="text-align:center;">
+<button class="open-button" onclick="openForm_2()">Survey 2</button>
+</div>
+        
+  <div class="form-popup" id="survey2">
+  <form action="results.php" method="post" class="form-container">
+
+        <div class="row"> 
+          <div class="col-50">
+            
+       What brand and generation CPU do you have?
+            <div class= "checkbox">
+                <input type="checkbox" name="check2[]" value="A" />Intel 9th<br>
+                <input type="checkbox" name="check2[]" value="B" />Intel 7th<br>
+                <input type="checkbox" name="check2[]" value="C" />Intel 5th<br>
+                <input type="checkbox" name="check2[]" value="D" />Intel 3rd <br>
+                <input type="checkbox" name="check2[]" value="E" />Ryzen 9th <br>
+                <input type="checkbox" name="check2[]" value="F" />Ryzen 7th<br>
+                <input type="checkbox" name="check2[]" value="G" />Ryzen 5th<br>
+                <input type="checkbox" name="check2[]" value="H" />Ryzen 3rd
+            </div>
+          </div>
+        </div>
+       
+        <input type="submit" value="Submit Checkout" class="btn">
+        <button type="submit" class="btn cancel" onclick="closeForm_2()">Close</button>
+  </form>
+</div>
+                
+     <!-- survey 3 -->  
+<div class="open-button" style="text-align:center;">
+<button class="open-button" onclick="openForm_3()">Survey 3</button>
+</div>
+        
+  <div class="form-popup" id="survey3">
+  <form action="results.php" method="post" class="form-container">
+
+        <div class="row"> 
+          <div class="col-50">
+            
+       How much RAM do you have?
+            <div class= "checkbox">
+                <input type="checkbox" name="check3[]" value="A" />1Gb<br>
+                <input type="checkbox" name="check3[]" value="B" />2Gb<br>
+                <input type="checkbox" name="check3[]" value="C" />4Gb<br>
+                <input type="checkbox" name="check3[]" value="D" />8Gb<br>
+                <input type="checkbox" name="check3[]" value="E" />12Gb<br>
+                <input type="checkbox" name="check3[]" value="F" />16Gb<br>
+                <input type="checkbox" name="check3[]" value="G" />32Gb<br>
+                <input type="checkbox" name="check3[]" value="H" />64Gb
+            </div>
+          </div>
+        </div>
+       
+        <input type="submit" value="Submit Checkout" class="btn">
+        <button type="submit" class="btn cancel" onclick="closeForm_3()">Close</button>
+  </form>
+</div>
+        
+        
+        
+        
+<script>
+function openForm_1() {
+  document.getElementById("survey1").style.display = "block";
+}
+
+function closeForm_1() {
+  document.getElementById("survey1").style.display = "none";
+}
+function openForm_2() {
+  document.getElementById("survey2").style.display = "block";
+}
+
+function closeForm_2() {
+  document.getElementById("survey2").style.display = "none";
+}
+function openForm_3() {
+  document.getElementById("survey3").style.display = "block";
+}
+
+function closeForm_3() {
+  document.getElementById("survey3").style.display = "none";
+}
+
+
+
+function Logout() {
+    location.href = 'loginpage.html';
+}
+</script>
+        
+        
+    </body>
+</html>

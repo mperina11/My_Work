@@ -1,0 +1,25 @@
+	loginpage
+if login
+	enter username and password
+	check against database
+	log the time in database
+	send to main page
+	
+if create account
+	enter username, password, first name, last name, email
+	check with REGEX
+
+	mainpage
+if logout
+	send user back to loginpage
+	log tim in database
+	
+if click product
+	add product to cart
+
+if cart
+	show overlay of cart with items
+	
+if checkout
+	show checkout form
+	store data in database
